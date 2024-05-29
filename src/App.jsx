@@ -9,6 +9,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Translat from "./components/Translat";
 import Clarity from "./components/Clarity";
+import Pricing from "./components/Pricing";
+import Speaking from "./components/Speaking";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -119,9 +122,10 @@ const App = () => {
         </div>
       </div>
 
-      <div className="section bg-black min-h-screen w-full flex justify-center items-center">
       <Clarity/>
-      </div>
+      <Pricing/>
+      <Speaking/>
+      <Footer/>
     </div>
   );
 };
