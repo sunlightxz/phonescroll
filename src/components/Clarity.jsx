@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import audio from '/audio.gif';
-// import micro from '/micro.gif';
+import audio from '/audio.gif';
+import micro from '/micro.gif';
 import appc from '/appc.png';
 import googlec from '/googlec.png';
 import calls from '/calls.png';
