@@ -24,7 +24,6 @@ const Clarity = () => {
                     start: "top 30%", // Start the animation when the top of clarityx is at the center of the viewport
                     end: "top top", // End the animation when the top of clarityx is at the top of the viewport
                     scrub: true,
-                    markers:true,
                 }
             }
         );
@@ -40,8 +39,6 @@ const Clarity = () => {
                     start: "top 30%", // Start the animation when the top of clarityx is at the center of the viewport
                     end: "top top", // End the animation when the top of clarityx is at the top of the viewport
                     scrub: true,
-                    markers:true,
-
                 }
             }
         );

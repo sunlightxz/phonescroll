@@ -17,7 +17,7 @@ r egestas nec nunc pellentesque eget blandit. Mi pulvinar
  enim orci porttitor amet at amet fermentum cras.Aenean 
 consectetur egestas nec nunc pellentesque eget blandit. 
         </p>
-        <div className="flex  justify-start mt-8 items-center">
+        <div className="flex gap-4 justify-start mt-8 items-center">
           <img src={app} alt="" />
           <img src={google} alt="" />
         </div>

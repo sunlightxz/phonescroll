@@ -79,7 +79,7 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <Nav/>
       <div
         ref={heroImageRef}
