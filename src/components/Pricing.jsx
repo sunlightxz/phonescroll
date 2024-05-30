@@ -2,9 +2,9 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="section bg-black min-h-screen w-full relative flex justify-center items-center">
+    <div className="section bg-black min-h-screen w-full relative flex sm:py-0 py-6 justify-center items-center">
       <div className="flex flex-col justify-center items-center gap-[10px]">
-        <h1 className="text-white text-[90px] font-bold">Pricing Plan</h1>
+        <h1 className="text-white lg:text-[90px] md:text-[80px] sm:text-[70px] text-[55px] font-bold">Pricing Plan</h1>
         <div className="flex flex-wrap items-center justify-center max-w-4xl mx-auto gap-4 sm:gap-0">
           <div className="w-full p-6 bg-black border border-gray-700 rounded-lg sm:w-1/2 bg-opacity-20 sm:rounded-r-none sm:p-8">
             <div className="mb-6">

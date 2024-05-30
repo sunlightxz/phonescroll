@@ -83,7 +83,7 @@ const App = () => {
       <Nav/>
       <div
         ref={heroImageRef}
-        className="flex justify-center items-center p-4 bg-[#D2C6DC] w-[330px] absolute right-[10%] border-white border rounded-3xl"
+        className="justify-center items-center md:p-3 p-2 bg-[#D2C6DC] xl:top-0 top-[20%] xl:w-[330px] md:w-[280px] w-[240px]  absolute md:right-[10%] right-[5%] border-white border rounded-3xl hidden sm:flex"
       >
         <div className="relative">
           <img

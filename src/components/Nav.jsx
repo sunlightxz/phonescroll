@@ -3,11 +3,11 @@ import logo from '/logo.png'
 
 const Nav = () => {
   return (
-    <nav className="w-full bg-black flex justify-start gap-14 items-center py-6 sm:px-14 xs:px-6 px-2 z-20">
+    <nav className="w-full bg-black flex md:justify-start justify-between gap-14 items-center py-6 sm:px-14 px-8 z-20">
       <a href="" className="flex justify-start items-center nav-img ">
-        <img className="md:w-full w-[140px]" src={logo} alt="" />
+        <img className="md:w-full " src={logo} alt="" />
       </a>
-      <div className="flex items-center justify-between w-full">
+      <div className="flex items-center justify-between md:w-full">
         <div className="hidden md:block">
           <div className="flex gap-10 items-center justify-center">
             <h1 className="lg:text-xl text-lg font-normal  cursor-pointer duration-500 ease-out hover:text-[#CFB8B8] text-white">
